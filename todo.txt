@@ -1,0 +1,23 @@
+Project Requirment
+--
+
+1. Personal Portfolio Website [
+   ( Frontend )
+   - A nice hero section with image, title , description, social media option etc .
+   - A nice Portfolio section (Fillterable by categories)
+   - Show Case the latest 6 blog post and at the bottom add see more blogpost button/ Paginations 
+   - A Nice CTA Options 
+   - Clean And Small Footer
+   - Live chating option via whatsapp,facebook,or other third-party way 
+   extra
+   - Animations, Fancy Stuff show creativity 
+]
+
+2. Blog Website [
+    (Back End Part)
+    - Add new blog from admin panel. 
+    - Crud operation blog features 
+    - Admin Page (Admin can login , Admin Can Create New Admin , Admin Can Reset password, Admin can add or delete portfolio )
+    - Google analytics, basic seo checking, tracking , cookies tracking, email collectiong, push notification, add comment section ,
+    Create user account for commenting, User login , logout, reset password etc ....
+]
