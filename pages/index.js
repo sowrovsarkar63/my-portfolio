@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Navigation bar  */}
+      {/* Nav bar   */}
       <Navbar />
 
       {/* Main Content */}
