@@ -3,6 +3,7 @@ Project Requirment
 
 1. Personal Portfolio Website [
    ( Frontend )
+   Don't know should I add navbar or not.
    - A nice hero section with image, title , description, social media option etc .
    - A nice Portfolio section (Fillterable by categories)
    - Show Case the latest 6 blog post and at the bottom add see more blogpost button/ Paginations 
