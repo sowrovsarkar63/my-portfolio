@@ -4,7 +4,7 @@ import Navbar from "./../components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Md Mahbubul Hasan Sowrov</title>
         <meta
@@ -13,13 +13,18 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* Main Content */}
+
+      {/* Navigation bar  */}
       <Navbar />
+
+      {/* Main Content */}
+
       <main className="container bg-slate-300">
         <h1>Main Content</h1>
       </main>
 
+      {/* Footer Section  */}
       <Footer />
-    </div>
+    </>
   );
 }
