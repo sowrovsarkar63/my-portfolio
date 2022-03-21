@@ -1,26 +1,28 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <>
       <nav className="navbar bg-base-100">
         <div className="container mx-auto px-14">
           <div className="flex-1">
-            <a href="#" className="btn btn-ghost normal-case text-xl">
+            <Link href="/" className="btn btn-ghost normal-case text-xl">
               SowrovSarkar
-            </a>
+            </Link>
           </div>
-          <div className="flex-none">
-            <ul className="menu menu-horizontal p-0">
+          <div className="flex-none navbar-start ">
+            <ul className="menu menu-horizontal p-2">
               <li>
-                <a href="#">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link href="#about">About</Link>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <Link href="#portfolio">Portfolio</Link>
               </li>
               <li>
-                <a href="#">Hire</a>
+                <Link href="#cta">Hire</Link>
               </li>
             </ul>
           </div>

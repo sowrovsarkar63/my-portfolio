@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Hero from "../components/HeroArea/Hero";
 import Footer from "./../components/Footer/Footer";
 import Navbar from "./../components/Navbar/Navbar";
 
@@ -19,8 +20,9 @@ export default function Home() {
 
       {/* Main Content */}
 
-      <main className="container bg-slate-300">
-        <h1>Main Content</h1>
+      <main>
+        {/* hero area  */}
+        <Hero />
       </main>
 
       {/* Footer Section  */}
