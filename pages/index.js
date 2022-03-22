@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/HeroArea/Hero";
 import Footer from "./../components/Footer/Footer";
 import Navbar from "./../components/Navbar/Navbar";
+import Portfolio from "./../components/Portfolio/Portfolio";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <main>
         {/* hero area  */}
         <Hero />
+        <Portfolio />
       </main>
 
       {/* Footer Section  */}
