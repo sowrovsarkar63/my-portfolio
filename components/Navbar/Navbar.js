@@ -26,7 +26,7 @@ export default function Navbar() {
                   Home
                 </a>
                 <a
-                  href=""
+                  href="#portfolio"
                   className="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 hover:border-b-4 border-red-500 transition duration-300"
                 >
                   Portfolio
