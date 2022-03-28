@@ -1,10 +1,15 @@
 export default function Portfolio() {
   return (
     <>
-      <section className="container mx-0 bg-base-200 mb-5" id="portfolio">
+      <section className="container mx-0 bg-base-200 mb-5 py-10" id="portfolio">
+        <div className="text-center">
+          <h1 className="text-4xl font-extrabold text-red-600">
+            My Project 👇
+          </h1>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 p-5">
           {/* portfolio items */}
-          <div className="portfolio-item bg-gradient-to-tr from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
+          <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
             <img
               className="object-cover"
               src="/assets/img/mentalhealth.png"
@@ -53,7 +58,7 @@ export default function Portfolio() {
           </div>
 
           {/* portfolio items */}
-          <div className="portfolio-item bg-gradient-to-tr from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
+          <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
             <img
               className="object-cover"
               src="/assets/img/mentalhealth.png"
@@ -102,7 +107,7 @@ export default function Portfolio() {
           </div>
 
           {/* portfolio items */}
-          <div className="portfolio-item bg-gradient-to-tr from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
+          <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
             <img
               className="object-cover"
               src="/assets/img/mentalhealth.png"
@@ -150,7 +155,7 @@ export default function Portfolio() {
             </div>
           </div>
           {/* portfolio items */}
-          <div className="portfolio-item bg-gradient-to-tr from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
+          <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
             <img
               className="object-cover"
               src="/assets/img/mentalhealth.png"
@@ -198,7 +203,7 @@ export default function Portfolio() {
             </div>
           </div>
           {/* portfolio items */}
-          <div className="portfolio-item bg-gradient-to-tr from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
+          <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
             <img
               className="object-cover"
               src="/assets/img/mentalhealth.png"
