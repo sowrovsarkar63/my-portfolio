@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
       {/* navbar  */}
-      <nav className="bg-base-100 shadow-lg">
+      <nav className="bg-base-100 shadow-lg sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex justify-between">
             <div className="flex space-x-7">
@@ -21,19 +21,19 @@ export default function Navbar() {
               <div className="hidden md:flex items-center space-x-1">
                 <a
                   href="#hero"
-                  className="py-4 px-2 text-red-500 hover:border-b-4 border-red-500 font-semibold"
+                  className="py-4 px-2 text-red-500 hover:border-b-4 active:border-b-4 border-red-500 font-semibold"
                 >
                   Home
                 </a>
                 <a
                   href="#portfolio"
-                  className="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 hover:border-b-4 border-red-500 transition duration-300"
+                  className="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 hover:border-b-4 active:border-b-4 border-red-500 transition duration-300"
                 >
                   Portfolio
                 </a>
                 <a
                   href="#contact"
-                  className="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 hover:border-b-4 border-red-500 transition duration-300"
+                  className="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 hover:border-b-4 active:border-b-4 border-red-500 transition duration-300"
                 >
                   Contact
                 </a>
