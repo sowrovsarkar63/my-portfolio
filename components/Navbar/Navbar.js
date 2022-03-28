@@ -10,7 +10,7 @@ export default function Navbar() {
             <div className="flex space-x-7">
               <div>
                 {/* logo */}
-                <a href="#" className="flex items-center py-4 px-2">
+                <a href="" className="flex items-center py-4 px-2">
                   {/* <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2" /> */}
                   <span className="font-black text-red-500 text-2xl">
                     Sowrov
@@ -20,7 +20,7 @@ export default function Navbar() {
               {/* <!-- Primary Navbar items --> */}
               <div className="hidden md:flex items-center space-x-1">
                 <a
-                  href=""
+                  href="#hero"
                   className="py-4 px-2 text-red-500 hover:border-b-4 border-red-500 font-semibold"
                 >
                   Home

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen bg-base-200" id="hero">
         <div className="hero-content text-center">
           <div className="max-w-lg">
             <Image
