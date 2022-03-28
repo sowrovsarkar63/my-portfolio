@@ -32,7 +32,7 @@ export default function Navbar() {
                   Portfolio
                 </a>
                 <a
-                  href=""
+                  href="#contact"
                   className="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 hover:border-b-4 border-red-500 transition duration-300"
                 >
                   Contact

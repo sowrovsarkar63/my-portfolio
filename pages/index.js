@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Contact from "../components/CTA/Contact";
 import Hero from "../components/HeroArea/Hero";
 import Footer from "./../components/Footer/Footer";
 import Navbar from "./../components/Navbar/Navbar";
@@ -25,6 +26,7 @@ export default function Home() {
         {/* hero area  */}
         <Hero />
         <Portfolio />
+        <Contact />
       </main>
 
       {/* Footer Section  */}
