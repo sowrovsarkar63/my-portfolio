@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Portfolio() {
   return (
     <>
@@ -10,7 +12,7 @@ export default function Portfolio() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 p-5">
           {/* portfolio items */}
           <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
-            <img
+            <Image
               className="object-cover"
               src="/assets/img/mentalhealth.png"
               alt=""
@@ -59,7 +61,7 @@ export default function Portfolio() {
 
           {/* portfolio items */}
           <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
-            <img
+            <Image
               className="object-cover"
               src="/assets/img/mentalhealth.png"
               alt=""
@@ -108,7 +110,7 @@ export default function Portfolio() {
 
           {/* portfolio items */}
           <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
-            <img
+            <Image
               className="object-cover"
               src="/assets/img/mentalhealth.png"
               alt=""
@@ -156,7 +158,7 @@ export default function Portfolio() {
           </div>
           {/* portfolio items */}
           <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
-            <img
+            <Image
               className="object-cover"
               src="/assets/img/mentalhealth.png"
               alt=""
@@ -204,7 +206,7 @@ export default function Portfolio() {
           </div>
           {/* portfolio items */}
           <div className="portfolio-item bg-gradient-to-b from-slate-900 text-white p-8 m-8 rounded-lg h-30 min-h-full ">
-            <img
+            <Image
               className="object-cover"
               src="/assets/img/mentalhealth.png"
               alt=""
