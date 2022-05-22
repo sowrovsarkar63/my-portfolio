@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Portfolio() {
   return (
     <>
-      <section className="container mx-0 bg-base-200 mb-5 py-10" id="portfolio">
+      <section className="bg-base-200 mb-5 py-10 " id="portfolio">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-red-600">
             My Project 👇
