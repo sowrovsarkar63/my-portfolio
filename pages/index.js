@@ -25,7 +25,11 @@ export default function Home() {
       <main>
         {/* hero area  */}
         <Hero />
+
+        {/* portfolio section */}
         <Portfolio />
+
+        {/* contact us section */}
         <Contact />
       </main>
 
