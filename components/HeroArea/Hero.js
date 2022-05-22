@@ -7,19 +7,19 @@ export default function Hero() {
         <div className="hero-content text-center">
           <div className="max-w-lg">
             <Image
-              className=" rounded-full"
+              className=" rounded-full  "
               src="/assets/img/important pic.jpg"
               alt="Profile pic"
               width={200}
               height={200}
             />
-            <h4 className="font-bold mb-5">Md Sowrov Sarkar</h4>
+            <h4 className="font-bold mb-4 mt-3">Md Mahabubul Hasan Sowrov </h4>
             <h1 className="text-5xl font-bold">
               <span className="text-red-600 font-extrabold ">Hello</span> there
             </h1>
             <p className="py-6">
               I'm Sowrov, I'm Front End Developer || React Js Specialist ||
-              JavaScript Enthugiast. I Love To Explore New Tools And Technique To
+              JavaScript's Fan. I Love To Explore New Tools And Technique To
               Solve Problem In Different Approaches. Passionate About Sharing
               Knowledge And Teach Others Some Critical Skill,Tools, And Concept
               Through Blog Article, And Linkedin Post.
